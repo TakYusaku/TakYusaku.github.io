@@ -1,242 +1,416 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Personal &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
+  <title>TakYusaku Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
 
-  <!-- 
-	//////////////////////////////////////////////////////
+<body>
+  <div class="wrapper">
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			takyusaku@icloud.com
-	Twitter: 		https://twitter.com/TakYusaku
-	Facebook: 		https://www.facebook.com/TakYusaku
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">PROFILE</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
 
-	//////////////////////////////////////////////////////
-	 -->
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <div class="logo-title">TakYusaku</div>
+        <div class="logo-subtitle">PORTFOLIO</div>
+      </h1>
+    </header>
+    <!-- /.header -->
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <main class="content">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+      <!-- .profile-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">PROFILE</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              こんにちは！
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/profile/profile_img.jpg" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  はじめまして．<br> 理系大学生のTakYusakuです．<br>高専時代に競技プログラミング，機械学習(主に強化学習)を勉強し，<br> 大学編入後は強化学習と統計学(統計的因果推論)を勉強しています.
+                </p>
+                <p>
+                  ●簡単な経歴と特に勉強(専攻)している分野等 <br> ・April, 2014 - March, 2019: 鈴鹿高専 電子情報工学科 <br> &nbsp;&nbsp; <font size="2">1~3年生では競技プログラミング, 5年生では強化学習</font> <br> ・April, 2019 - : 大学3年次編入 数理科学専攻 <br> &nbsp;&nbsp; <font size="2">強化学習, 統計学(因果推論)</font>
+                </p>
+                <p>
+                  ●趣味 <br> ・音楽(楽器を弾く，ライブやフェスに行く) <br> ・バイク <br> ・料理
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.profile-section -->
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              できること，経験ありなこと
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                </div>               
+                <div class="skill-body">
+                  <h1>機械学習・データ解析</h1>
+                  <h3 class="skill-title">Python / 経験年数: 4年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <h3 class="skill-title">Pytorch / 経験年数: 1年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <h3 class="skill-title">OpenAI gym / 経験年数: 3年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                <h3 class="skill-title">R / 経験年数: 1年</h3>
+                <div class="skill-rating rating">
+                  <div class="rate rate3"></div>
+                </div>
+              </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h1>Web フロントエンド</h1>
+                  <h3 class="skill-title">HTML / 経験年数: 1年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+                  <h3 class="skill-title">JavaScript / 経験年数: 1年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+              </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h1>Web バックエンド</h1>
+                  <h3 class="skill-title">Go / 経験年数: 3年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <h3 class="skill-title">Flask(Python) / 経験年数: 1年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+              </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h1>競技プログラミング</h1>
+                  <h3 class="skill-title">C++ / 経験年数: 6年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+              </div>
+              </div>              
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h1>その他開発ツール</h1>
+                  <h3 class="skill-title">Docker / 経験年数: 4年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <h3 class="skill-title">GitHub / 経験年数: 4年</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+      <!-- .works-section -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">WORKS</h2>
+          </div>
+          <div class="section-lead">
+            <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/hairsalon.jpg" data-size="960x720"
+                  class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
+                    data-src="img/works/hairsalon.jpg" alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) </div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.works-section -->
 
-	</head>
-	<body style="background-image: url(images/bg_img.jpg);">
-	
-	<div id="fh5co-main">
-		<div class="fh5co-tab-wrap">
-			<ul class="fh5co-tab-menu">
-				<li class="active"><a href="#" data-tab="1"><span class="icon icon-glass"></span><span class="menu-text">Profile</span></a></li>
-				<li><a href="#" data-tab="2"><span class="icon icon-graduation-cap"></span><span class="menu-text">Education</span></a></li>
-				<li><a href="#" data-tab="3"><span class="icon icon-black-tie"></span><span class="menu-text">Experience</span></a></li>
-				<li><a href="#" data-tab="4" data-pie="yes"><span class="icon icon-fighter-jet"></span><span class="menu-text">Skills</span></a></li>
-			</ul>
-			<div class="fh5co-tab-content active" data-content="1">
-				<div class="fh5co-content-inner text-center">
-					<div class="row row-bottom-padded-sm">
-						<div class="col-md-12">
-							<figure>
-								<img src="./images/profile_img.JPG" alt="Free HTML5 Wesbite Template by FreeHTML5.co">
-							</figure>
-							<h1>Takahashi Yusaku</h1>
-							<!--<p>Born and raised in <a href="#">Brooklyn</a>. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the <a href="#">Semantics</a>, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>-->
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 fh5co-counter">
-							<div class="fh5co-number fh5co-left">7</div>
-							<div class="fh5co-text">
-								<h3 class="border-bottom">Years of experience in Programming</h3>
-								<!-- <p>Far far away, behind the word mountains, far from the countries.</p> -->
-							</div>
-						</div>
-					</div>
-					<ul class="fh5co-social">
-						<li><a href="takyusaku@icloud.com"><i class="icon-envelope"></i></a></li>
-						<li><a href="https://twitter.com/TakYusaku"><i class="icon-twitter"></i></a></li>
-						<li><a href="https://www.instagram.com/tkhsgram0130"><i class="icon-instagram"></i></a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="fh5co-tab-content" data-content="2">
-				<div class="fh5co-content-inner">
-					<div class="row">
-						<div class="col-md-12">
-							<p>I was born and raised in Mie.</p>
+      <!-- .feature-section -->
+      <section class="feature-section section" id="feature-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">FEATURE</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              １サイトの解説
+            </p>
+          </div>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <a href="https://www.yahoo.co.jp/" target="_blank" class="hover-action"><img clas="feature-image"
+                    src="img/feature/feature.jpg" alt=""></a>
+              </div>
+              <div class="feature-body">
+                <p>
+                  <span class="text-bold">サイト名：</span><br>サイト名が入る<br><a href="#" target="_blank">https://●●●.com</a></p>
+                <p><span class="text-bold">担当：</span><br>Design / Coding (Responsive) / WordPress / Writing</p>
+                <p><span
+                    class="text-bold">コメント：</span><br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.feature-section -->
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-graduation-cap"></i>
-								</div>
-								<div class="fh5co-text">
-									<h2>April, 2019 - March, 2021(Expect)</h2>
-									<p>Osaka University, Osaka, Japan <br> Bachelor of Engineering Science, <br> <font size="3">Major: Mathematical Science.</font></p>
-								</div>									
-							</div>
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="https://twitter.com/TakYusaku" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_tw.png" alt=""></a>
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="https://www.facebook.com/TakYusaku" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_fb.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="contact-text">takyusaku(at)icloud.com</div>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-graduation-cap"></i>
-								</div>
-								<div class="fh5co-text">
-									<h2>March, 2019</h2>
-									<p>National Institute of Technology (KOSEN), Suzuka College, Mie, Japan. <br> Associate degree of Engineering, <br> <font size="3">Major: Electronic and Information Engineering.</font></p>
-								</div>				
-							</div>
+    </main>
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-graduation-cap"></i>
-								</div>
-								<div class="fh5co-text">
-									<p>I'll be a Master Cource of Graduate School of Engineering Science, Osaka University student from April 2021.</p>
-								</div>	
-							</div>
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
 
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="fh5co-tab-content" data-content="3">
-				<div class="fh5co-content-inner">
-					<div class="row">
-						<div class="col-md-12">
+  </div>
 
-							<p>I have the privilege to work with these cool companies.</p>
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-black-tie"></i>
-								</div>
-								<div class="fh5co-text">
-									<h2>2008 - Present</h2>
-									<h3>XYZ Inc.</h3>
-									<p>Far far away, behind the word mountains, far from the countries.</p>
-								</div>
-							</div>
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-black-tie"></i>
-								</div>
-								<div class="fh5co-text">
-									<h2>2004-2008</h2>
-									<h3>Previous Ltd Co.</h3>
-									<p>Far far away, behind the word mountains, far from the countries.</p>
-								</div>
-							</div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
 
-							<div class="fh5co-feature">
-								<div class="fh5co-icon">
-									<i class="icon-black-tie"></i>
-								</div>
-								<div class="fh5co-text">
-									<h2>1999-2004</h2>
-									<h3>Previous Ltd Co.</h3>
-									<p>Far far away, behind the word mountains, far from the countries.</p>
-								</div>
-							</div>
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
 
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="fh5co-tab-content" data-content="4">
-				<div class="fh5co-content-inner">
-					<div class="row">
-						<div class="col-md-12">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
-						</div>
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
 
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-							<div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
-						</div>
+        <div class="pswp__top-bar">
 
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer id="fh5co-footer">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center">
-					<small>
-						&copy; 2016 Personal Free HTML5 Template. All Rights Reserved. <span class="fh5co-author">
-						Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></span>
-					</small>
-				</div>
-			</div>
-		</footer>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+          <!--  Controls are self-explanatory. Order can be changed. -->
 
-	</body>
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
-
